@@ -1,0 +1,53 @@
+nav{
+    background-color: #17365d;
+    padding:20px;
+}
+hero{
+    background-color: #f4f7fb;
+    padding: 60px 20px;
+}
+.book-card{
+    background-color: white;
+    transition: 0.3s;
+}
+.book-card:hover{
+    transform:translateY(-5px);
+}
+.buy-button{
+    display: inline-block;
+    background-color: #17365d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+}
+.buy-button:hover{
+    background-color: #0d2a4a;
+}
+#contact{
+    background-color: #f4f7fb;
+    padding: 40px 10px;
+    text-align: center;
+}
+footer{
+    background-color: #17365d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a:hover{
+    color: #ffd700 !important;
+}
+nav a{
+    font-size: large;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero .btn{
+    transition: 0.3s;
+}
+.hero .btn:hover{
+    transform: translateY(-2px);
+}
